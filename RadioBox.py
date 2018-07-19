@@ -8,7 +8,7 @@ class RadioBoxFrame(wx.Frame):
 		panel = wx.Panel(self,-1)
 		samplist = ('1','2','3','4','5')
 		wx.RadioBox(panel,-1,'33333',(10,10),wx.DefaultSize,
-			samplist,2,wx.RA_SPECIFY_COLS)
+			samplist,3,wx.RA_SPECIFY_COLS)
 
 if __name__ == '__main__':
 	app = wx.PySimpleApp()
